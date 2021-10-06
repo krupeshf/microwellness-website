@@ -157,9 +157,6 @@
                 <p class="ud-feature-desc">
                   Advice tailored to you based on your personality.
                 </p>
-                <a href="javascript:void(0)" class="ud-feature-link">
-                  Learn More
-                </a>
               </div>
             </div>
           </div>
@@ -173,9 +170,6 @@
                 <p class="ud-feature-desc">
                   Sessions with therapists at affordable prices.
                 </p>
-                <a href="javascript:void(0)" class="ud-feature-link">
-                  Learn More
-                </a>
               </div>
             </div>
           </div>
@@ -189,9 +183,6 @@
                 <p class="ud-feature-desc">
                   Join support networks with like-minded individuals.
                 </p>
-                <a href="javascript:void(0)" class="ud-feature-link">
-                  Learn More
-                </a>
               </div>
             </div>
           </div>
@@ -285,7 +276,7 @@
                 that you can be the best version of yourself
               </p>
 
-              <a href="javascript:void(0)" class="ud-main-btn">Learn More</a>
+              <a class="ud-main-btn" onclick="GooglePlayLink()">Learn More</a>
             </div>
           </div>
           <div class="ud-about-image">
@@ -441,7 +432,7 @@
               </div>
               <div class="ud-pricing-body">
                 <ul>
-                  <li>Personalized Routines</li>
+                  <li>Personalized Advice</li>
                   <li>Peer Support Networks</li>
                 </ul>
               </div>
@@ -459,9 +450,9 @@
               </div>
               <div class="ud-pricing-body">
                 <ul>
-                  <li>Personalized Routines</li>
+                  <li>Personalized Advice</li>
                   <li>Peer Support Networks</li>
-                  <li>5 Credits/mo</li>
+                  <li>Premium Advice and Therapy</li>
                   <li>Discounts on Partnered Services</li>
                 </ul>
               </div>
@@ -656,7 +647,7 @@
       const sendMail = () => {
         let name = document.getElementById('form-name').value;
         let message = document.getElementById('form-message').value;
-        window.location.replace(`mailto:hans@canstartco.com?body=${message}&subject=${name} wants to talk about MicroWellness`)
+        window.location.replace(`mailto:info@microwellness.me?body=${message}&subject=${name} wants to talk about MicroWellness`)
       }
 
       window.document.addEventListener("scroll", onScroll);
