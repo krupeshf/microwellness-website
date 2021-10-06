@@ -522,22 +522,6 @@
                   />
                 </div>
                 <div class="ud-form-group">
-                  <label for="email">Email*</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="form-email"
-                  />
-                </div>
-                <div class="ud-form-group">
-                  <label for="phone">Phone*</label>
-                  <input
-                    type="text"
-                    name="phone"
-                    id="form-phone"
-                  />
-                </div>
-                <div class="ud-form-group">
                   <label for="message">Message*</label>
                   <textarea
                     name="message"
@@ -671,11 +655,8 @@
 
       const sendMail = () => {
         let name = document.getElementById('form-name').value;
-        let email = document.getElementById('form-email').value;
-        let phone = document.getElementById('form-phone').value;
         let message = document.getElementById('form-message').value;
-        
-        window.location.replace(`mailto:hans@canstartco.com?body=${message}&subject=${name} wants to contact you about MicroWellness`)
+        window.location.replace(`mailto:hans@canstartco.com?body=${message}&subject=${name} wants to talk about MicroWellness`)
       }
 
       window.document.addEventListener("scroll", onScroll);
