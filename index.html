@@ -512,13 +512,13 @@
               data-wow-delay=".2s"
             >
               <h3 class="ud-contact-form-title">Send us a Message</h3>
-              <form class="ud-contact-form" action="mailto:info@microwellness.me" method="POST" enctype="text/plain">
+              <div class="ud-contact-form">
                 <div class="ud-form-group">
                   <label for="fullName">Full Name*</label>
                   <input
                     type="text"
                     name="fullName"
-                    placeholder="Adam Gelius"
+                    id="form-name"
                   />
                 </div>
                 <div class="ud-form-group">
@@ -526,7 +526,7 @@
                   <input
                     type="email"
                     name="email"
-                    placeholder="example@yourmail.com"
+                    id="form-email"
                   />
                 </div>
                 <div class="ud-form-group">
@@ -534,7 +534,7 @@
                   <input
                     type="text"
                     name="phone"
-                    placeholder="+885 1254 5211 552"
+                    id="form-phone"
                   />
                 </div>
                 <div class="ud-form-group">
@@ -542,15 +542,15 @@
                   <textarea
                     name="message"
                     rows="1"
-                    placeholder="type your message here"
+                    id="form-message"
                   ></textarea>
                 </div>
                 <div class="ud-form-group mb-0">
-                  <button type="submit" class="ud-main-btn">
+                  <button onclick="sendMail()" class="ud-main-btn">
                     Send Message
                   </button>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
@@ -667,6 +667,15 @@
             currLink.classList.remove("active");
           }
         }
+      }
+
+      const sendMail = () => {
+        let name = document.getElementById('form-name').value;
+        let email = document.getElementById('form-email').value;
+        let phone = document.getElementById('form-phone').value;
+        let message = document.getElementById('form-message').value;
+        
+        window.location.replace(`mailto:hans@canstartco.com?body=${message}&subject=${name} wants to contact you about MicroWellness`)
       }
 
       window.document.addEventListener("scroll", onScroll);
