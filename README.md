@@ -1,3 +1,3 @@
-# MicroWellness.me
+# www.microwellness.me
 
-Static landing page of MicroWellness.
+static website
