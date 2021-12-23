@@ -7,7 +7,7 @@ Organization: Canada Startup Co.
 
 <h2>Description</h2>
 
-Static website for MicroWellness. Built with Bootstrap HTML.
+[Static website](https://www.microwellness.me) for MicroWellness. Built with Bootstrap HTML.
 
 For the MicroWellness mobile app, see this [repository](https://github.com/startupco/microwellness.me).
 
