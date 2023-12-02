@@ -3,6 +3,7 @@ Krupesh to finish changes
 * Change class name .kpf-a
 * Wellness for every mind - add the image on the side given by anshika
 * About us - add the image on the side given by anshika
+* Add footer for contact in all the pages
 
 
 Future
