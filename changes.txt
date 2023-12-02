@@ -1,6 +1,8 @@
 Krupesh to finish changes
 * Change the header
 * Change class name .kpf-a
+* Wellness for every mind - add the image on the side given by anshika
+* About us - add the image on the side given by anshika
 
 
 Future
