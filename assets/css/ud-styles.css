@@ -576,9 +576,8 @@ p {
   margin-bottom: 30px;
 }
 
-
-.ud-hero-content .kpf-a {
-  font-size: 30px;
+.mw-desc {
+  margin-bottom: 0px!important;
 }
 
 @media (max-width: 767px) {
@@ -1525,6 +1524,10 @@ p {
 
 .ud-widget {
   margin-bottom: 50px;
+}
+
+.mw-widget {
+  margin-bottom: 20px!important;
 }
 
 .ud-widget .ud-footer-logo {
