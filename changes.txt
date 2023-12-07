@@ -1,14 +1,9 @@
 Krupesh
 * Change the header
-* Change class name .kpf-a
-* Wellness for every mind - add the image on the side given by anshika
 * About us - add the image on the side given by anshika
-* Add footer for contact in all the pages
 
 Anshika
 * Image for about us
-* Image for the landing page
-* Select font names as the icons
 * Persnoality Questionnaire description needs to be changed
 
 Future
